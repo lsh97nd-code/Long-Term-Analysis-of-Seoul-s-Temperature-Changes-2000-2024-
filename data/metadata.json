@@ -1,0 +1,19 @@
+{
+  "source": "Open-Meteo Historical Weather API (ERA5 reanalysis)",
+  "request": {
+    "url": "https://archive-api.open-meteo.com/v1/archive?latitude=37.5665&longitude=126.978&start_date=2000-01-01&end_date=2024-12-31&daily=temperature_2m_max%2Ctemperature_2m_min%2Ctemperature_2m_mean%2Cprecipitation_sum&timezone=Asia%2FSeoul&models=era5",
+    "model": "era5"
+  },
+  "latitude": 37.5,
+  "longitude": 127.0,
+  "elevation_m": 34.0,
+  "units": {
+    "time": "iso8601",
+    "temperature_2m_max": "°C",
+    "temperature_2m_min": "°C",
+    "temperature_2m_mean": "°C",
+    "precipitation_sum": "mm"
+  },
+  "rows": 9132,
+  "license": "CC BY 4.0 - Weather data by Open-Meteo.com / Copernicus Climate Change Service (ERA5)"
+}

@@ -1,0 +1,493 @@
+{
+  "data_info": {
+    "rows": 9132,
+    "start": "2000-01-01",
+    "end": "2024-12-31",
+    "columns": [
+      "date",
+      "tmax",
+      "tmin",
+      "tmean",
+      "precip"
+    ],
+    "dtypes": {
+      "date": "datetime64[ns]",
+      "tmax": "float64",
+      "tmin": "float64",
+      "tmean": "float64",
+      "precip": "float64"
+    },
+    "missing": {
+      "date": 0,
+      "tmax": 0,
+      "tmin": 0,
+      "tmean": 0,
+      "precip": 0
+    },
+    "duplicate_dates": 0,
+    "missing_dates": 0
+  },
+  "cleaning_log": {
+    "duplicates_removed": 0,
+    "dates_added": 0,
+    "out_of_range_to_nan": {
+      "tmax": 0,
+      "tmin": 0,
+      "tmean": 0,
+      "precip": 0
+    },
+    "tmin_gt_tmax": 0,
+    "tmean_computed": 0,
+    "interpolated": {
+      "tmax": 0,
+      "tmin": 0,
+      "tmean": 0
+    },
+    "remaining_missing": {
+      "tmax": 0,
+      "tmin": 0,
+      "tmean": 0
+    },
+    "precip_missing_kept": 0,
+    "statistical_outliers_flagged": 1,
+    "statistical_outlier_dates": [
+      "2002-06-24"
+    ]
+  },
+  "annual_trend_per_decade": 0.551148254993763,
+  "annual_trend": {
+    "slope": 0.055114825499376296,
+    "intercept": -98.17148486701777,
+    "r2": 0.4375092607388138,
+    "se": 0.013030725073294922,
+    "ci95": [
+      0.029053375352786452,
+      0.08117627564596613
+    ],
+    "n": 25
+  },
+  "annual": [
+    {
+      "year": 2000,
+      "valid_days": 366,
+      "tmean": 12.177868852459017,
+      "tmax_mean": 17.26775956284153,
+      "tmin_mean": 7.381967213114755,
+      "heat_days": 8,
+      "tropical_nights": 1,
+      "cold_days": 1
+    },
+    {
+      "year": 2001,
+      "valid_days": 365,
+      "tmean": 12.271780821917808,
+      "tmax_mean": 17.707671232876713,
+      "tmin_mean": 7.084109589041096,
+      "heat_days": 5,
+      "tropical_nights": 3,
+      "cold_days": 17
+    },
+    {
+      "year": 2002,
+      "valid_days": 365,
+      "tmean": 12.282191780821918,
+      "tmax_mean": 17.44164383561644,
+      "tmin_mean": 7.389863013698631,
+      "heat_days": 3,
+      "tropical_nights": 1,
+      "cold_days": 2
+    },
+    {
+      "year": 2003,
+      "valid_days": 365,
+      "tmean": 12.425205479452055,
+      "tmax_mean": 17.478356164383563,
+      "tmin_mean": 7.619178082191781,
+      "heat_days": 0,
+      "tropical_nights": 0,
+      "cold_days": 7
+    },
+    {
+      "year": 2004,
+      "valid_days": 366,
+      "tmean": 12.79672131147541,
+      "tmax_mean": 18.220491803278687,
+      "tmin_mean": 7.6816939890710385,
+      "heat_days": 7,
+      "tropical_nights": 2,
+      "cold_days": 6
+    },
+    {
+      "year": 2005,
+      "valid_days": 365,
+      "tmean": 11.807671232876713,
+      "tmax_mean": 16.926849315068495,
+      "tmin_mean": 6.967397260273972,
+      "heat_days": 6,
+      "tropical_nights": 6,
+      "cold_days": 8
+    },
+    {
+      "year": 2006,
+      "valid_days": 365,
+      "tmean": 12.73095890410959,
+      "tmax_mean": 17.816986301369862,
+      "tmin_mean": 7.84,
+      "heat_days": 10,
+      "tropical_nights": 3,
+      "cold_days": 3
+    },
+    {
+      "year": 2007,
+      "valid_days": 365,
+      "tmean": 12.831232876712328,
+      "tmax_mean": 17.843013698630138,
+      "tmin_mean": 8.114246575342465,
+      "heat_days": 3,
+      "tropical_nights": 5,
+      "cold_days": 0
+    },
+    {
+      "year": 2008,
+      "valid_days": 366,
+      "tmean": 12.6827868852459,
+      "tmax_mean": 17.825409836065575,
+      "tmin_mean": 7.800000000000001,
+      "heat_days": 4,
+      "tropical_nights": 7,
+      "cold_days": 1
+    },
+    {
+      "year": 2009,
+      "valid_days": 365,
+      "tmean": 12.464931506849315,
+      "tmax_mean": 17.443561643835615,
+      "tmin_mean": 7.726301369863013,
+      "heat_days": 2,
+      "tropical_nights": 0,
+      "cold_days": 4
+    },
+    {
+      "year": 2010,
+      "valid_days": 365,
+      "tmean": 12.02849315068493,
+      "tmax_mean": 16.68054794520548,
+      "tmin_mean": 7.5676712328767115,
+      "heat_days": 5,
+      "tropical_nights": 12,
+      "cold_days": 19
+    },
+    {
+      "year": 2011,
+      "valid_days": 365,
+      "tmean": 11.917534246575341,
+      "tmax_mean": 16.783835616438356,
+      "tmin_mean": 7.483561643835617,
+      "heat_days": 4,
+      "tropical_nights": 2,
+      "cold_days": 21
+    },
+    {
+      "year": 2012,
+      "valid_days": 366,
+      "tmean": 12.059562841530056,
+      "tmax_mean": 16.941530054644808,
+      "tmin_mean": 7.56120218579235,
+      "heat_days": 12,
+      "tropical_nights": 12,
+      "cold_days": 15
+    },
+    {
+      "year": 2013,
+      "valid_days": 365,
+      "tmean": 12.093150684931507,
+      "tmax_mean": 16.894246575342464,
+      "tmin_mean": 7.54986301369863,
+      "heat_days": 3,
+      "tropical_nights": 16,
+      "cold_days": 17
+    },
+    {
+      "year": 2014,
+      "valid_days": 365,
+      "tmean": 13.01041095890411,
+      "tmax_mean": 18.2213698630137,
+      "tmin_mean": 8.356712328767124,
+      "heat_days": 6,
+      "tropical_nights": 4,
+      "cold_days": 0
+    },
+    {
+      "year": 2015,
+      "valid_days": 365,
+      "tmean": 13.49013698630137,
+      "tmax_mean": 18.73835616438356,
+      "tmin_mean": 8.71013698630137,
+      "heat_days": 4,
+      "tropical_nights": 9,
+      "cold_days": 1
+    },
+    {
+      "year": 2016,
+      "valid_days": 366,
+      "tmean": 13.395628415300546,
+      "tmax_mean": 18.486612021857926,
+      "tmin_mean": 8.824863387978143,
+      "heat_days": 17,
+      "tropical_nights": 17,
+      "cold_days": 5
+    },
+    {
+      "year": 2017,
+      "valid_days": 365,
+      "tmean": 12.772602739726027,
+      "tmax_mean": 17.92958904109589,
+      "tmin_mean": 7.965205479452055,
+      "heat_days": 5,
+      "tropical_nights": 9,
+      "cold_days": 1
+    },
+    {
+      "year": 2018,
+      "valid_days": 365,
+      "tmean": 12.532054794520548,
+      "tmax_mean": 17.6,
+      "tmin_mean": 7.827945205479452,
+      "heat_days": 28,
+      "tropical_nights": 24,
+      "cold_days": 14
+    },
+    {
+      "year": 2019,
+      "valid_days": 365,
+      "tmean": 13.102739726027398,
+      "tmax_mean": 18.32082191780822,
+      "tmin_mean": 8.277534246575343,
+      "heat_days": 11,
+      "tropical_nights": 21,
+      "cold_days": 0
+    },
+    {
+      "year": 2020,
+      "valid_days": 366,
+      "tmean": 12.976229508196722,
+      "tmax_mean": 17.94344262295082,
+      "tmin_mean": 8.520491803278688,
+      "heat_days": 5,
+      "tropical_nights": 11,
+      "cold_days": 2
+    },
+    {
+      "year": 2021,
+      "valid_days": 365,
+      "tmean": 13.405205479452054,
+      "tmax_mean": 18.458356164383563,
+      "tmin_mean": 8.753972602739726,
+      "heat_days": 16,
+      "tropical_nights": 12,
+      "cold_days": 9
+    },
+    {
+      "year": 2022,
+      "valid_days": 365,
+      "tmean": 12.746575342465754,
+      "tmax_mean": 17.824109589041097,
+      "tmin_mean": 8.045479452054794,
+      "heat_days": 6,
+      "tropical_nights": 19,
+      "cold_days": 7
+    },
+    {
+      "year": 2023,
+      "valid_days": 365,
+      "tmean": 13.615068493150686,
+      "tmax_mean": 18.622465753424656,
+      "tmin_mean": 8.996712328767124,
+      "heat_days": 13,
+      "tropical_nights": 9,
+      "cold_days": 6
+    },
+    {
+      "year": 2024,
+      "valid_days": 366,
+      "tmean": 14.371857923497268,
+      "tmax_mean": 19.308196721311475,
+      "tmin_mean": 9.919398907103826,
+      "heat_days": 25,
+      "tropical_nights": 38,
+      "cold_days": 1
+    }
+  ],
+  "monthly_period_comparison": [
+    {
+      "month": 1,
+      "p1": -2.270967741935484,
+      "p2": -1.81,
+      "diff": 0.46096774193548384
+    },
+    {
+      "month": 2,
+      "p1": 0.2791519434628975,
+      "p2": 0.8226148409893993,
+      "diff": 0.5434628975265018
+    },
+    {
+      "month": 3,
+      "p1": 5.515806451612904,
+      "p2": 7.013225806451612,
+      "diff": 1.4974193548387085
+    },
+    {
+      "month": 4,
+      "p1": 12.269333333333334,
+      "p2": 13.331333333333333,
+      "diff": 1.0619999999999994
+    },
+    {
+      "month": 5,
+      "p1": 17.87548387096774,
+      "p2": 18.346451612903223,
+      "diff": 0.47096774193548185
+    },
+    {
+      "month": 6,
+      "p1": 22.221666666666668,
+      "p2": 23.052,
+      "diff": 0.830333333333332
+    },
+    {
+      "month": 7,
+      "p1": 24.941935483870967,
+      "p2": 26.30548387096774,
+      "diff": 1.363548387096774
+    },
+    {
+      "month": 8,
+      "p1": 25.640967741935484,
+      "p2": 26.753225806451614,
+      "diff": 1.11225806451613
+    },
+    {
+      "month": 9,
+      "p1": 21.205,
+      "p2": 22.197333333333333,
+      "diff": 0.9923333333333346
+    },
+    {
+      "month": 10,
+      "p1": 14.65967741935484,
+      "p2": 14.815483870967743,
+      "diff": 0.15580645161290363
+    },
+    {
+      "month": 11,
+      "p1": 6.739,
+      "p2": 7.597333333333332,
+      "diff": 0.8583333333333325
+    },
+    {
+      "month": 12,
+      "p1": -0.362258064516129,
+      "p2": -0.18677419354838712,
+      "diff": 0.1754838709677419
+    }
+  ],
+  "monthly_volatility": [
+    {
+      "month": 1,
+      "std": 2.8580120098409236,
+      "mean_abs": 2.218217054263566,
+      "max_drop": -12.0,
+      "max_rise": 10.6
+    },
+    {
+      "month": 2,
+      "std": 2.63458038018313,
+      "mean_abs": 1.9888260254596888,
+      "max_drop": -11.0,
+      "max_rise": 8.8
+    },
+    {
+      "month": 3,
+      "std": 2.325827795732202,
+      "mean_abs": 1.826064516129032,
+      "max_drop": -12.4,
+      "max_rise": 7.6
+    },
+    {
+      "month": 4,
+      "std": 2.026205975266484,
+      "mean_abs": 1.5846666666666667,
+      "max_drop": -7.7,
+      "max_rise": 7.7
+    },
+    {
+      "month": 5,
+      "std": 1.7468393635192918,
+      "mean_abs": 1.3637419354838711,
+      "max_drop": -6.0,
+      "max_rise": 5.400000000000002
+    },
+    {
+      "month": 6,
+      "std": 1.4254109971876274,
+      "mean_abs": 1.1129333333333333,
+      "max_drop": -5.0,
+      "max_rise": 4.399999999999999
+    },
+    {
+      "month": 7,
+      "std": 1.3114901454454018,
+      "mean_abs": 1.0152258064516129,
+      "max_drop": -5.300000000000001,
+      "max_rise": 4.0
+    },
+    {
+      "month": 8,
+      "std": 1.2579794757561384,
+      "mean_abs": 0.9534193548387098,
+      "max_drop": -5.5,
+      "max_rise": 3.3000000000000007
+    },
+    {
+      "month": 9,
+      "std": 1.3356605035948976,
+      "mean_abs": 1.0033333333333334,
+      "max_drop": -6.300000000000001,
+      "max_rise": 5.0
+    },
+    {
+      "month": 10,
+      "std": 1.802932206472357,
+      "mean_abs": 1.3745806451612905,
+      "max_drop": -6.899999999999999,
+      "max_rise": 4.6
+    },
+    {
+      "month": 11,
+      "std": 2.818882620052523,
+      "mean_abs": 2.1386666666666665,
+      "max_drop": -12.5,
+      "max_rise": 9.4
+    },
+    {
+      "month": 12,
+      "std": 3.0307482781399084,
+      "mean_abs": 2.3850322580645162,
+      "max_drop": -11.2,
+      "max_rise": 7.300000000000001
+    }
+  ],
+  "forecast": {
+    "mae": {
+      "naive": 3.0700000000000003,
+      "seasonal_naive": 4.906666666666668,
+      "climatology": 1.5839899999999998,
+      "clim_plus_anomaly": 1.7690959259259258
+    },
+    "recent_anomaly": -0.8290873015873015,
+    "train_end": "2024-12-01",
+    "test_start": "2024-12-02",
+    "test_end": "2024-12-31"
+  }
+}
